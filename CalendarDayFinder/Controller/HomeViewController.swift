@@ -77,6 +77,15 @@ class HomeViewController: UIViewController
     {
         self.view.endEditing(true)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "calculatedID"
+        {
+            guard let vc = segue.destination as? CalculatedDayViewController else {return}
+            vc.calculatedDayValueText = resultLable.text ?? "No data detected!"
+        }
+    }
 }
 
 extension UIViewController
@@ -89,4 +98,3 @@ extension UIViewController
         
     }
 }
-

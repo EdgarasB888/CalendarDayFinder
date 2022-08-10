@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UOu-uz-nys">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="CalendarDayFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day" translatesAutoresizingMaskIntoConstraints="NO" id="4fX-Sh-yaH">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="5" width="375" height="662"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Your Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3x-Pz-IVM">
-                                <rect key="frame" x="80" y="112" width="160" height="35"/>
+                                <rect key="frame" x="107.5" y="117" width="160" height="35"/>
                                 <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="2df-wK-qcq"/>
@@ -36,7 +36,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-ux-Fax">
-                                <rect key="frame" x="16" y="167" width="288" height="118"/>
+                                <rect key="frame" x="16" y="172" width="343" height="118"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6Uk-ZE-g6T">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="118"/>
@@ -83,22 +83,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eAm-z8-6jB">
-                                        <rect key="frame" x="70" y="0.0" width="218" height="118"/>
+                                        <rect key="frame" x="70" y="0.0" width="273" height="118"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Day type data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="abz-N6-pTd">
-                                                <rect key="frame" x="0.0" y="0.0" width="218" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="273" height="34"/>
                                                 <color key="backgroundColor" red="0.76164442300000001" green="0.62151014800000004" blue="0.41171532869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Month type data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zzl-3D-WYv">
-                                                <rect key="frame" x="0.0" y="42" width="218" height="34"/>
+                                                <rect key="frame" x="0.0" y="42" width="273" height="34"/>
                                                 <color key="backgroundColor" red="0.76164442300000001" green="0.62151014800000004" blue="0.41171532869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year type data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dBe-n2-vmK">
-                                                <rect key="frame" x="0.0" y="84" width="218" height="34"/>
+                                                <rect key="frame" x="0.0" y="84" width="273" height="34"/>
                                                 <color key="backgroundColor" red="0.76164442300000001" green="0.62151014800000004" blue="0.41171532869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
@@ -108,7 +108,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="PE7-Sx-JQo">
-                                <rect key="frame" x="90" y="305" width="140" height="137.5"/>
+                                <rect key="frame" x="117.5" y="310" width="140" height="137.5"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day of the week inside your finder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlX-3b-RoZ">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="76.5"/>
@@ -160,7 +160,16 @@
                             <constraint firstItem="4fX-Sh-yaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-91" id="dKU-hQ-4LJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Day Finder" id="c6m-nP-wKe"/>
+                    <navigationItem key="navigationItem" title="Day Finder" id="c6m-nP-wKe">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="calendar" catalog="system" id="At6-1g-f60">
+                            <color key="tintColor" red="1" green="0.003354163184" blue="0.97850271649999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="l9F-T2-p7v" kind="popoverPresentation" identifier="calculatedID" popoverAnchorBarButtonItem="At6-1g-f60" id="yJF-ca-yh0">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="dayTextField" destination="abz-N6-pTd" id="Qif-jj-c00"/>
                         <outlet property="findButton" destination="HsQ-Qz-Kwf" id="GjI-5o-cz1"/>
@@ -173,13 +182,75 @@
             </objects>
             <point key="canvasLocation" x="1046.25" y="137.32394366197184"/>
         </scene>
+        <!--Calculated Day View Controller-->
+        <scene sceneID="8YZ-nu-pOu">
+            <objects>
+                <viewController id="l9F-T2-p7v" customClass="CalculatedDayViewController" customModule="CalendarDayFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k0K-gQ-1F4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gfs-UD-hfl">
+                                <rect key="frame" x="55.5" y="46" width="264" height="204.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="X7g-Yd-ttl">
+                                        <rect key="frame" x="57" y="1" width="150" height="150"/>
+                                        <color key="tintColor" red="0.92080491779999996" green="0.0030885299550000001" blue="0.90101011340000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="0ue-oy-gmm"/>
+                                            <constraint firstAttribute="height" constant="152.5" id="gLt-am-rtZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="tuO-FW-XnU">
+                                        <rect key="frame" x="0.0" y="160.5" width="264" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculated day is:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fk-yq-QEP">
+                                                <rect key="frame" x="0.0" y="0.0" width="163" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="163" id="e1a-TG-goW"/>
+                                                    <constraint firstAttribute="height" constant="44" id="sUL-JY-7Km"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJU-Hj-e4b">
+                                                <rect key="frame" x="176" y="0.0" width="88" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="88" id="DEd-R2-ugA"/>
+                                                    <constraint firstAttribute="height" constant="44" id="YqS-vG-HRz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mrv-IB-MAQ"/>
+                        <color key="backgroundColor" red="0.92411530019999999" green="0.538521111" blue="0.41169342399999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="gfs-UD-hfl" firstAttribute="centerX" secondItem="mrv-IB-MAQ" secondAttribute="centerX" id="ATd-x3-zld"/>
+                            <constraint firstItem="gfs-UD-hfl" firstAttribute="top" secondItem="mrv-IB-MAQ" secondAttribute="top" constant="46" id="WnU-Xi-gOv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="calculatedDayLabel" destination="FJU-Hj-e4b" id="ZXs-nu-14z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ni-p2-po1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.375" y="925.35211267605632"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="AER-js-HYa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UOu-uz-nys" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="qyq-mO-Jq2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.92793905740000004" green="0.58451837299999998" blue="0.56859201189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -194,6 +265,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="day" width="329" height="716"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
