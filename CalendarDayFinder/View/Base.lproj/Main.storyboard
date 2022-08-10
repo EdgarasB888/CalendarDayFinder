@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UOu-uz-nys">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="CalendarDayFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day" translatesAutoresizingMaskIntoConstraints="NO" id="4fX-Sh-yaH">
-                                <rect key="frame" x="0.0" y="5" width="375" height="662"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Your Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3x-Pz-IVM">
-                                <rect key="frame" x="107.5" y="117" width="160" height="35"/>
+                                <rect key="frame" x="80" y="112" width="160" height="35"/>
                                 <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="2df-wK-qcq"/>
@@ -36,7 +36,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-ux-Fax">
-                                <rect key="frame" x="16" y="172" width="343" height="118"/>
+                                <rect key="frame" x="16" y="157" width="288" height="118"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6Uk-ZE-g6T">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="118"/>
@@ -83,22 +83,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eAm-z8-6jB">
-                                        <rect key="frame" x="70" y="0.0" width="273" height="118"/>
+                                        <rect key="frame" x="70" y="0.0" width="218" height="118"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Day type data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="abz-N6-pTd">
-                                                <rect key="frame" x="0.0" y="0.0" width="273" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="218" height="34"/>
                                                 <color key="backgroundColor" red="0.76164442300000001" green="0.62151014800000004" blue="0.41171532869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Month type data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zzl-3D-WYv">
-                                                <rect key="frame" x="0.0" y="42" width="273" height="34"/>
+                                                <rect key="frame" x="0.0" y="42" width="218" height="34"/>
                                                 <color key="backgroundColor" red="0.76164442300000001" green="0.62151014800000004" blue="0.41171532869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year type data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dBe-n2-vmK">
-                                                <rect key="frame" x="0.0" y="84" width="273" height="34"/>
+                                                <rect key="frame" x="0.0" y="84" width="218" height="34"/>
                                                 <color key="backgroundColor" red="0.76164442300000001" green="0.62151014800000004" blue="0.41171532869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
@@ -107,8 +107,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="PE7-Sx-JQo">
-                                <rect key="frame" x="117.5" y="310" width="140" height="137.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PE7-Sx-JQo">
+                                <rect key="frame" x="90" y="285" width="140" height="123.5"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day of the week inside your finder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlX-3b-RoZ">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="76.5"/>
@@ -127,7 +127,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsQ-Qz-Kwf">
-                                        <rect key="frame" x="0.0" y="100.5" width="140" height="37"/>
+                                        <rect key="frame" x="0.0" y="86.5" width="140" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.55923018449999995" blue="0.68540021839999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="4jT-Gm-O5c"/>
@@ -149,13 +149,13 @@
                         <constraints>
                             <constraint firstItem="j3x-Pz-IVM" firstAttribute="centerX" secondItem="4fX-Sh-yaH" secondAttribute="centerX" id="0pc-58-ego"/>
                             <constraint firstItem="4fX-Sh-yaH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2pH-AR-QNn"/>
-                            <constraint firstItem="sSM-ux-Fax" firstAttribute="top" secondItem="j3x-Pz-IVM" secondAttribute="bottom" constant="20" id="5aU-Wc-fcn"/>
+                            <constraint firstItem="sSM-ux-Fax" firstAttribute="top" secondItem="j3x-Pz-IVM" secondAttribute="bottom" constant="10" id="5aU-Wc-fcn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sSM-ux-Fax" secondAttribute="trailing" constant="16" id="BJk-Ho-a9a"/>
                             <constraint firstItem="4fX-Sh-yaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ema-Tl-BKj"/>
                             <constraint firstItem="sSM-ux-Fax" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KF6-X6-luz"/>
                             <constraint firstItem="4fX-Sh-yaH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UNZ-XR-JAX"/>
                             <constraint firstItem="j3x-Pz-IVM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="V4b-Bm-IRZ"/>
-                            <constraint firstItem="PE7-Sx-JQo" firstAttribute="top" secondItem="sSM-ux-Fax" secondAttribute="bottom" constant="20" id="YrL-BL-ldb"/>
+                            <constraint firstItem="PE7-Sx-JQo" firstAttribute="top" secondItem="sSM-ux-Fax" secondAttribute="bottom" constant="10" id="YrL-BL-ldb"/>
                             <constraint firstItem="PE7-Sx-JQo" firstAttribute="centerX" secondItem="4fX-Sh-yaH" secondAttribute="centerX" id="btQ-Nx-12r"/>
                             <constraint firstItem="4fX-Sh-yaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-91" id="dKU-hQ-4LJ"/>
                         </constraints>
@@ -187,11 +187,11 @@
             <objects>
                 <viewController id="l9F-T2-p7v" customClass="CalculatedDayViewController" customModule="CalendarDayFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k0K-gQ-1F4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gfs-UD-hfl">
-                                <rect key="frame" x="55.5" y="46" width="264" height="204.5"/>
+                                <rect key="frame" x="28" y="46" width="264" height="204.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="X7g-Yd-ttl">
                                         <rect key="frame" x="57" y="1" width="150" height="150"/>
@@ -250,7 +250,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UOu-uz-nys" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="qyq-mO-Jq2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.92793905740000004" green="0.58451837299999998" blue="0.56859201189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
